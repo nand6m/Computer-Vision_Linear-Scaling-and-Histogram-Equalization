@@ -27,4 +27,7 @@ The program will print the scaled image and eqalized image, along with the value
 ## V. Handling of any kind of errors(like division by zero, etc):
 1. By using hallucinated constant 0.01 and adding it to value of L, in order to avoid divide by 0 error, or zero by zero error. In xyZ try-catch block is used to handle divide by zero error.  
 2. By applying conditions to values of r, g, b.   
-Condition like checking NaN error, if it is met, the values(r,g,b) are equated to 0.
+Condition like checking NaN error, if it is met, the values(r,g,b) are equated to 0.  
+
+## Sample Result
+![Result](https://github.com/nand6m/Computer-Vision_Linear-Scaling-and-Histogram-Equalization/blob/master/Output_images/sample_results.png)
